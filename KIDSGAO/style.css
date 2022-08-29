@@ -24,7 +24,9 @@ button {
     background-color: transparent;
 }
 
-/* 시작 */
+/********************
+*** Intro ***
+*******************/
 #intro{
     width:100%;
     height:1600px;  /* intro_bg.png의 높이가 1600px임 */
@@ -45,7 +47,11 @@ button {
     left:50%;   /*introWrap 서랍장 왼쪽면이 50% 지점으로 이동 */
     margin-left:-380px; /* introWrap 서랍장의 width:760px의 절반 값인 380px을 음수로 적용 (왼쪽으로 380px 이동) */
     
-    top:100px;
+    /* introWrap 서랍장을 아래로 내림 */
+    top:100px;  /* 마진 병합이 일어나지 않도록 하되, 다른 콘텐츠의 위치에도 영향을 끼치지 않으면서, introWrap 서랍장만 아래로 옮길 수 있음 */
+                /* top 속성은 3차원 특징을 가진 position의 속성값인 relative, absolute, fixed에서만 사용 가능 */
+        /* margin-top 속성을 사용하면 마진 병합 현상이 발생하여, intro의 배경이 아닌, 흰색 배경이 보이게 됨 */
+        /* padding-top 속성을 사용하면 introWrap 서랍장이 아래로 내려오긴 하지만, intro 공간의 높이가 1600px + 100px = 1700px로 바뀜 */
 }
 
 /* 로고와 동물 이미지는 absolute 속성값을 사용하여 z-index 속성 적용 예정 */
@@ -93,7 +99,7 @@ button {
     width:100%;
     height:1050px;
 }
-#intro #cloudWrap #cloud1{
+#intro #cloudWrap #cloud1{  /* 왼쪽 끝 정렬 방법 : absolute, left:0 */
     position:absolute;
     width:934px;
     height:816px;
@@ -101,7 +107,7 @@ button {
     left:0;
     z-index:2;
 }
-#intro #cloudWrap #cloud2{
+#intro #cloudWrap #cloud2{  /* 오른쪽 끝 정렬 방법 : absolute, right:0 */
     position:absolute;
     width:843px;
     height:858px;
