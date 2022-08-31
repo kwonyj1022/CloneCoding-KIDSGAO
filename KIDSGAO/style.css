@@ -308,3 +308,63 @@ button {
     margin:435px 0px 0px 200px;
     z-index:25;
 }
+
+#forest #forest2{
+    position:relative;
+    width:100%;
+    height:750px;
+    background-image:url(./img/forest/forest2/forest2_bg.png);
+}
+#forest #forest2 #frog{
+    position:absolute;
+    width:153px;
+    height:257px;
+    background-image:url(./img/forest/forest2/frog.png);
+    margin:50px 0px 0px 100px;
+}
+#forest #forest2 #machineWrap2{
+    position:relative;
+    width:400px;
+    height:400px;
+    top:180px;
+    left:50%;
+    margin-left:-180px;
+}
+#forest #forest2 #machineWrap2 #machinebottom{
+    position:absolute;
+    width:374px;
+    height:162px;
+    background-image:url(./img/forest/forest2/machinebottom.png);
+    margin-top:220px;
+    z-index:200;
+}
+#forest #forest2 #machineWrap2 #machineleft{
+    position:absolute;
+    width:123px;
+    height:228px;
+    background-image:url(./img/forest/forest2/machineleft.png);
+    margin-top:30px;
+    z-index:300;
+}
+#forest #forest2 #machineWrap2 #machineright{
+    position:absolute;
+    width:123px;
+    height:248px;
+    background-image:url(./img/forest/forest2/machineright.png);
+    margin:10px 0px 0px 260px;
+    z-index:300;
+}
+#forest #forest2 img{
+    position:relative;
+    top:-100px;
+    float:right;
+    margin-right:100px;
+}
+#forest #forest2 #forest2tree{
+    position:relative;
+    width:304px;
+    height:282px;
+    background-image:url(./img/forest/forest2/forest2tree.png);
+    top:50px;
+    float:left;
+}
