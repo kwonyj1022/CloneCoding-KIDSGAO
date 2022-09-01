@@ -479,3 +479,66 @@ button {
     line-height:26px;
     padding-top:10px;
 }
+
+/********************
+*** Oneday ***
+*******************/
+#oneday #night1{
+    position:relative;
+    width:100%;
+    height:700px;
+    background-image:url(./img/oneday/night1/night1_bg.png);
+}
+#oneday #night1 #owl{
+    position:absolute;
+    width:334px;
+    height:571px;
+    background-image:url(./img/oneday/night1/owl.png);
+    margin-top:50px;
+}
+#oneday #night1 #starWrap{
+    position:relative;
+    width:750px;
+    height:400px;
+    top:150px;
+    margin-left:600px;
+}
+#oneday #night1 #starWrap #star1, #star2, #star3{
+    position:absolute;
+    width:53px;
+    height:50px;
+    background-image:url(./img/oneday/night1/star1.png);
+}
+#oneday #night1 #starWrap #star1{
+    margin-top:350px;
+}
+#oneday #night1 #starWrap #star2{
+    margin-left:650px;
+}
+#oneday #night1 #starWrap #star3{
+    margin:250px 0px 0px 500px;
+}
+
+#oneday #night2{
+    position:relative;
+    width:100%;
+    height:800px;
+    background-image:url(./img/oneday/night2/night2_bg.png);
+}
+#oneday #night2 #moon{
+    width:135px;
+    height:135px;
+    background-image:url(./img/oneday/night2/moon.png);
+}
+#oneday #night2 img{
+    position:absolute;
+    margin:300px 0px 0px 80px;
+}
+#oneday #night #moontree{
+    position:absolute;
+    width:243px;
+    height:588px;
+    background-image:url(./img/oneday/night2/moontree.png);
+    right:0;
+    bottom:0;
+}
