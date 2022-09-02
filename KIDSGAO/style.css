@@ -542,3 +542,30 @@ button {
     right:0;
     bottom:0;
 }
+
+#oneday #morning{
+    position:relative;
+    width:100%;
+    height:800px;
+    background-image:url(./img/oneday/morning/morning_bg.png);
+}
+#oneday #morning #sun{
+    width:131px;
+    height:131px;
+    background-image:url(./img/oneday/morning/sun.png);
+}
+#oneday #morning #leftpine{
+    position:absolute;
+    width:231px;
+    height:329px;
+    background-image:url(./img/oneday/morning/leftpine.png);
+    top:270px;
+}
+#oneday #morning #rightpine{
+    position:absolute;
+    width:294px;
+    height:609px;
+    background-image:url(./img/oneday/morning/rightpine.png);
+    right:0;
+    bottom:0;
+}
