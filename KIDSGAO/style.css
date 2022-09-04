@@ -653,3 +653,48 @@ button {
     float:right;
     margin:100px 200px 0px 0px;
 }
+
+#color #color2{
+    position:relative;
+    width:100%;
+    height:800px;
+    background-image:url(./img/color/color2/color2_bg.png);
+}
+#color #color2 #horse{
+    position:absolute;
+    width:188px;
+    height:241px;
+    background-image:url(./img/color/color2/horse.png);
+    right:0;
+    margin:100px 100px 0px 0px;
+}
+#color #color2 #colorWrap{
+    position:absolute;
+    width:500px;
+    top:440px;
+    margin-left:50px;
+}
+#color #color2 #colorWrap img{
+    margin-bottom:30px;
+}
+#color #color2 #colorWrap #btnWrap{
+    margin-bottom:20px;
+}
+#color #color2 #colorWrap #btnWrap #red{
+    width:59px;
+    height:82px;
+    background-image:url(./img/color/color2/btn/btn_red.png);
+}
+#color #color2 #colorWrap #btnWrap #yellow{
+    width:59px;
+    height:82px;
+    background-image:url(./img/color/color2/btn/btn_yellow.png);
+}
+#color #color2 #colorWrap #btnWrap #blue{
+    width:59px;
+    height:82px;
+    background-image:url(./img/color/color2/btn/btn_blue.png);
+}
+#color #color2 #colorWrap p{
+    color:#8E7577;
+}
