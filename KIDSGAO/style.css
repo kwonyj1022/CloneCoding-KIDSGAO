@@ -577,3 +577,57 @@ button {
     right:0;
     bottom:0;
 }
+
+/********************
+*** Kitchen ***
+*******************/
+#kitchen{
+    position:relative;
+    width:100%;
+    height:800px;
+    background-image:url(./img/kitchen/kitchen_bg.png);
+}
+#kitchen #pan{
+    position:absolute;
+    width:253px;
+    height:384px;
+    background-image:url(./img/kitchen/pan.png);
+    left:0;
+}
+#kitchen #pot{
+    position:absolute;
+    width:243px;
+    height:132px;
+    background-image:url(./img/kitchen/pot.png);
+    right:0;
+}
+
+#kitchen #steamWrap{
+    position:relative;
+    width:483px;
+    height:457px;
+    left:50%;
+    margin-left:-275px;
+    top:282px;
+}
+#kitchen #steamWrap #steam{
+    position:absolute;
+    width:479px;
+    height:457px;
+    background-image:url(./img/kitchen/steam.png);
+    z-index:100;
+}
+#kitchen #steamWrap #bubble{
+    position:absolute;
+    width:55px;
+    height:56px;
+    background-image:url(./img/kitchen/bubble.png);
+    margin-top:230px;
+    z-index:50;
+}
+#kitchen img{
+    position:absolute;
+    right:0;
+    top:400px;  /* kitchen 공간을 기준으로 상단에서 400px 떨어짐
+                    margin-top 속성을 사용할 경우, img가 만들어지는 최초 위치를 기준으로 좌표가 설정되므로 의도한 위치보다 아래에 위치함 */
+}
