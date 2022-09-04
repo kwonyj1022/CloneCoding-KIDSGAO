@@ -680,6 +680,7 @@ button {
 #color #color2 #colorWrap #btnWrap{
     margin-bottom:20px;
 }
+/* button 태그는 display 속성의 기본값으로 inline-block 속성값을 가지고 있으므로 기본으로 x축으로 정렬됨 */
 #color #color2 #colorWrap #btnWrap #red{
     width:59px;
     height:82px;
