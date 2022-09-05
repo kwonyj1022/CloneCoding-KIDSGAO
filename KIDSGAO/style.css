@@ -699,3 +699,41 @@ button {
 #color #color2 #colorWrap p{
     color:#8E7577;
 }
+
+#color #color3{
+    position:relative;
+    width:100%;
+    height:800px;
+    background-image:url(./img/color/color3/color3_bg.png);
+}
+#color #color3 #flag{
+    position:relative;
+    width:1774px;
+    height:178px;
+    background-image:url(./img/color/color3/flag.png);
+    left:50%;
+    margin-left:-887px;
+}
+#color #color3 #book{
+    position:relative;
+    width:417px;
+    height:178px;
+    background-image:url(./img/color/color3/book.png);
+    float:right;
+}
+#color #color3 #backlogo{
+    position:relative;
+    width:759px;
+    height:516px;
+    background-image:url(./img/color/color3/backlogo.png);
+    left:50%;
+    margin-left:-380px;
+}
+#color #color3 #dice{
+    position:absolute;
+    width:239px;
+    height:200px;
+    background-image:url(./img/color/color3/dice.png);
+    left:0;
+    bottom:0;
+}
