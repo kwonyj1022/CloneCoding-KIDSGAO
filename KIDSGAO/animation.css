@@ -33,3 +33,15 @@
     from{transform:rotate(10deg);}
     to{transform:rotate(-10deg);}
 }
+
+#intro #introWrap #monkey{
+    animation-name:spinMonkey;
+    animation-duration:800ms;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+@keyframes spinMonkey{
+    from{transform:rotate(20deg);}
+    to{transform:rotate(50deg);}
+}
