@@ -1,6 +1,6 @@
 #intro #introWrap #lion{
     animation-name:spinLion;
-    animation-duration:1500s;
+    animation-duration:1500ms;
     animation-timing-function:linear;
     animation-iteration-count:infinite;
     animation-direction:alternate;
@@ -8,4 +8,16 @@
 @keyframes spinLion{
     from{transform:rotate(-10deg);}
     to{transform:rotate(10deg);}
+}
+
+#intro #introWrap #rabbit{
+    animation-name:spinRabbit;
+    animation-duration:1000ms;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+@keyframes spinRabbit{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(5deg);}
 }
