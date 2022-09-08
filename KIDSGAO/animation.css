@@ -21,3 +21,15 @@
     from{transform:rotate(0deg);}
     to{transform:rotate(5deg);}
 }
+
+#intro #introWrap #bear{
+    animation-name:spinBear;
+    animation-duration:1000ms;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+@keyframes spinBear{
+    from{transform:rotate(10deg);}
+    to{transform:rotate(-10deg);}
+}
