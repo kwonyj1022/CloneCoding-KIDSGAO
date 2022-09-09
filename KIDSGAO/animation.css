@@ -45,3 +45,15 @@
     from{transform:rotate(20deg);}
     to{transform:rotate(50deg);}
 }
+
+#intro #cloudWrap #dragonfly{
+    animation-name:flyDragonfly;
+    animation-duration:7s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:normal;
+}
+@keyframes flyDragonfly{
+    from{left:-366px;}  /* 잠자리를 왼쪽 화면 밖으로 이동시킴 (366px는 잠자리 너비) */
+    to{left:110%;}      /* 잠자리를 오른쪽 화면 밖으로 사라지게 함 (브라우저 창 너비는 모니터 크기에 따라 다르므로 가변값(%) 사용 */
+}
