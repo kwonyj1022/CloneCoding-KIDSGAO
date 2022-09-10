@@ -138,3 +138,19 @@
     from{transform:rotate(-10deg);}
     to{transform:rotate(10deg);}
 }
+
+#science #scienceWrap #leftWrap #gly{
+    animation:spinGly 1500ms linear infinite alternate;
+}
+@keyframes spinGly{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(50deg);}
+}
+
+#science #scienceWrap #rightWrap #water{
+    animation:spinWater 1500ms linear infinite alternate;
+}
+@keyframes spinWater{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(-50deg);}
+}
