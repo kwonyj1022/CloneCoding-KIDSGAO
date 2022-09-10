@@ -122,3 +122,19 @@
     from{left:-30px;}
     to{left:0;}
 }
+
+#forest #forest3 #forest3Wrap #smallbird{
+    animation:spinSmallbird 1000ms linear infinite alternate;
+}
+@keyframes spinSmallbird{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(10deg);}
+}
+
+#forest #forest3 #forest3Wrap #bigbird{
+    animation:spinBigbird 1000ms linear infinite alternate;
+}
+@keyframes spinBigbird{
+    from{transform:rotate(-10deg);}
+    to{transform:rotate(10deg);}
+}
