@@ -90,3 +90,19 @@
     from{transform:rotate(0deg);}
     to{transform:rotate(360deg);}
 }
+
+#forest #forest1 #treeWrap #rabbit1{
+    animation:spinRabbit1 1000ms linear infinite alternate;
+}
+@keyframes spinRabbit1{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(10deg);}
+}
+
+#forest #forest1 #treeWrap #rabbit2{
+    animation:spinRabbit2 1000ms linear infinite alternate;
+}
+@keyframes spinRabbit2{
+    from{transform:rotate(10deg);}
+    to{transform:rotate(0deg);}
+}
