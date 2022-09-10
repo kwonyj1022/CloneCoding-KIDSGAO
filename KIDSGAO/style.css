@@ -360,6 +360,7 @@ button {
     top:-100px;
     float:right;
     margin-right:100px;
+    z-index:1000;
 }
 #forest #forest2 #forest2tree{
     position:relative;

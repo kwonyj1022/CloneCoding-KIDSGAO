@@ -106,3 +106,19 @@
     from{transform:rotate(10deg);}
     to{transform:rotate(0deg);}
 }
+
+#forest #forest2 #machineWrap2 #machineleft{
+    animation:moveLeft 1s linear infinite alternate;
+}
+@keyframes moveLeft{
+    from{left:30px;}
+    to{left:0;}
+}
+
+#forest #forest2 #machineWrap2 #machineright{
+    animation:moveRight 1s linear infinite alternate;
+}
+@keyframes moveRight{
+    from{left:-30px;}
+    to{left:0;}
+}
