@@ -154,3 +154,11 @@
     from{transform:rotate(0deg);}
     to{transform:rotate(-50deg);}
 }
+
+#oneday #night1 #starWrap #star1, #star2, #star3{
+    animation:sizeStar 1s linear infinite alternate;
+}
+@keyframes sizeStar{
+    from{transform:scale(1);}   /* 원본 크기에서 시작됨 */
+    to{transform:scale(0.8);}
+}
