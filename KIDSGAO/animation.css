@@ -166,7 +166,7 @@
 #oneday #night2 #moon{
     animation:moveMoon 10s linear infinite;
 }
-@keyframes moveMoon{
+@keyframes moveMoon{    /* position 속성값을 입력하지 않았으므로 (position:static) left 속성 사용 불가 */
     from{margin-left:-135px;}
     to{margin-left:110%;}
 }
@@ -174,7 +174,7 @@
 #oneday #morning #sun{
     animation:moveSun 10s linear 1.5s infinite;
 }
-@keyframes moveSun{
+@keyframes moveSun{    /* position 속성값을 입력하지 않았으므로 (position:static) left 속성 사용 불가 */
     from{margin-left:-131px;}
     to{margin-left:110%}
 }
