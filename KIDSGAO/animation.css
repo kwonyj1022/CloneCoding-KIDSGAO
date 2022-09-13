@@ -178,3 +178,19 @@
     from{margin-left:-131px;}
     to{margin-left:110%}
 }
+
+#kitchen #steamWrap #bubble{
+    animation:moveBubble 2000ms linear infinite;
+}
+@keyframes moveBubble{
+    0%{transform:translate(0px, 0px);}
+    30%{transform:translate(-30px, -30px);}
+    40%{transform:translate(-40px, -48px);}
+    50%{transform:translate(-50px, -75px);}
+    60%{transform:translate(-60px, -108px);}
+    70%{transform:translate(-70px, -147px);}
+    75%{transform:translate(-75px, -170px);}
+    80%{transform:translate(-80px, -192px);}
+    90%{transform:translate(-90px, -243px);}
+    100%{transform:translate(-100px, -300px);}
+}
